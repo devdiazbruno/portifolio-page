@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+
+}
+
+header{
+    padding: 20px 10px;
+    background-color: black;
+    height: 57px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    margin-left: 20px;
+    font-size: 30px;
+    color: aqua;
+
+}
+
+#logo{
+    margin-top: 7px;
+    height: 37px;
+    width: 37px;
+    border-radius: 50%;
+
+    background-color: rgb(231, 255, 94);
+    text-align: center;
+}
+
+.par{
+    font-size: x-large;
+}
+/*fim do header*/
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+section{
+    padding: 15px 15px;
+    height: 400px;
+    background-color:black;
+}
+
+h1{
+    font-size: 55px;
+    color: aliceblue;
+}
+
+.relogio{
+    padding: 10px 10px;
+    background-color: black;
+    height: 270px;
+    width: 370px;
+    box-shadow: 00 2px 2px 3px; 
+    font-size: 50px;
+    
+    color: aqua;
+
+   
+
+}
+
+.hora, .min, .seg{
+    justify-content: space-around;
+    display: flex;
+    background-color: rgb(0, 3, 6);
+    height:90px ;
+    
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    height: 25px;
+}
+
+
+
